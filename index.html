@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Conversor de Telefone (Letras para Números)</title>
+	
+  <script type="text/javascript" src="lib/jquery-2.0.0/jquery.js"></script>
+  <script type="text/javascript" src="src/ConversorTelefone.js"></script>
+
+  <script type="text/javascript">
+	$(document).ready(function() {
+		$('#btnConverter').click(function() {			
+			var valorConvertido = Telefone.converter($('#txtTelefone').val());
+			$('#lblTelefoneConvertido').text(valorConvertido);
+		});
+	});  
+  </script>
+
+</head>
+
+<body>
+
+Telefone:
+<input id="txtTelefone" />
+<input id="btnConverter" type="button" value="Converter" />
+<label id="lblTelefoneConvertido" />
+
+</body>
+</html>
