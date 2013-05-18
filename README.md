@@ -1,9 +1,20 @@
-Exemplo-jasmineTDD
-==================
+##Sample Jasmine TDD
 
-Exemplo de uso do TDD com jasmine.
+Example of using TDD with jasmine.js.
 
-Números de telefone que utilizam letras, devem ser convertidos para números.
+The problem:
+Phone numbers using letters, must be converted to numbers.
 
-Por exemplo:
-0800-KING deve ser convertido para 0800-5464.
+Eg:
+* 0800-KING must be converted to 0800-5464;
+* GOOD-TIME must be converted to 4663-8463.
+
+Libraries used:
+* [jQuery](http://jquery.com/);
+* [Jasmine](http://pivotal.github.io/jasmine/).
+
+####TO DO
+
+Refactor the solution using *switch case* for more optimization.
+
+Victor Rios
