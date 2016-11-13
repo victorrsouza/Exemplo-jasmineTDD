@@ -11,7 +11,7 @@ Eg:
 
 Libraries used:
 * [jQuery](http://jquery.com/);
-* [Jasmine](http://pivotal.github.io/jasmine/).
+* [Jasmine](https://jasmine.github.io/).
 
 ####TO DO
 
